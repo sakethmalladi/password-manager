@@ -35,7 +35,7 @@ GUI Version: Transition from CLI to a graphical user interface.
 Enhanced Security: Implement multi-factor authentication for added security.
 
 ## Author
-### Saketh Malladi
+Saketh Malladi
 
 ## Installation
 
