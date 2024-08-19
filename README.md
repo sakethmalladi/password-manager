@@ -18,18 +18,6 @@ To build and run the Password Manager, you need the following:
 - C++ Compiler (e.g., g++, clang++)
 - SQLite3 library and headers
 - OpenSSL library and headers
-
-## Installation
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/yourusername/PasswordManager.git
-cd PasswordManager
-sudo apt-get install libsqlite3-dev libssl-dev
-g++ -o PasswordManager main.cpp DatabaseManager.cpp PasswordManager.cpp -lsqlite3 -lssl -lcrypto
-./PasswordManager
-```bash
 ## Usage
 ### 1. Add a Password:
 
@@ -43,8 +31,17 @@ g++ -o PasswordManager main.cpp DatabaseManager.cpp PasswordManager.cpp -lsqlite
 . Select the account name to delete its associated password from the database.
 
 ## Future Enhancements
-### GUI Version: Transition from CLI to a graphical user interface.
-### Enhanced Security: Implement multi-factor authentication for added security.
+GUI Version: Transition from CLI to a graphical user interface.
+Enhanced Security: Implement multi-factor authentication for added security.
 
 ## Author
 ### Saketh Malladi
+
+## Installation
+
+```bash
+git clone https://github.com/yourusername/PasswordManager.git
+cd PasswordManager
+sudo apt-get install libsqlite3-dev libssl-dev
+g++ -o PasswordManager main.cpp DatabaseManager.cpp PasswordManager.cpp -lsqlite3 -lssl -lcrypto
+./PasswordManager
