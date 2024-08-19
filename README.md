@@ -29,3 +29,22 @@ cd PasswordManager
 sudo apt-get install libsqlite3-dev libssl-dev
 g++ -o PasswordManager main.cpp DatabaseManager.cpp PasswordManager.cpp -lsqlite3 -lssl -lcrypto
 ./PasswordManager
+
+## Usage
+### 1. Add a Password:
+
+. The application prompts for the account name and password.
+. The password is encrypted and stored in the database.
+### 2. Retrieve a Password:
+
+. Provide the account name to retrieve the corresponding decrypted password.
+### 3. Delete a Password:
+
+. Select the account name to delete its associated password from the database.
+
+## Future Enhancements
+### GUI Version: Transition from CLI to a graphical user interface.
+### Enhanced Security: Implement multi-factor authentication for added security.
+
+## Author
+### Saketh Malladi
