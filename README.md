@@ -29,7 +29,7 @@ cd PasswordManager
 sudo apt-get install libsqlite3-dev libssl-dev
 g++ -o PasswordManager main.cpp DatabaseManager.cpp PasswordManager.cpp -lsqlite3 -lssl -lcrypto
 ./PasswordManager
-
+```bash
 ## Usage
 ### 1. Add a Password:
 
